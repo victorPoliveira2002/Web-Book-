@@ -21,6 +21,7 @@ Colocado em praticada o uso das principais funções do CSS.
 * Pseudo-elementos
 * Plugin SwiperJS
 * Combinadores CSS
+* Menu retratil
 
 ## :technologist: Autor
 <table>
