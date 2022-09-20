@@ -5,12 +5,14 @@ Projeto realizado em acompanhamento das aulas na plataforma alura!
 
 Colocado em praticada o uso das principais funções do CSS.
 
+![Wallpaper Project](https://user-images.githubusercontent.com/72527282/191326000-393a5c40-ddcc-4772-8caa-bcd91217e0f4.png)
 
 
 ## :books: Funcionalidades
 * <b>Pagina de venda de livros</b>
 * <b>Pagina criada no formato "Mobile First"</b>
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/72527282/191326403-ff8cb20c-b47f-4f78-9f7d-64719fd3c0f4.gif)
 
 
 ## :wrench: Tecnologias utilizadas
