@@ -1,0 +1,182 @@
+.cabecalho_menu-hamburguer {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* Sem o Inline-Block não seria possivel o ajuste de altura/largura */
+    background-image: url(../images/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cabecalho {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 1em;
+    /* Relative para que minha lista se ajuste de acordo com o cabecalho */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container_botao {
+    display: none;
+}
+
+.container_imagem {
+    padding: 0.5em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    /* Absolute em relacao ao cabecalho */
+    top: 100%;
+    /*  Posicao abaixo do cabecalho */
+    width: 70vw;
+}
+
+.lista_menu-titulo {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.lista_menu-titulo,
+.lista_menu-item {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.lista_menu-link {
+    background: var(--blue-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*     Vai prencher a cor que setei no "background" apenas aonde tem TEXTO     */
+    text-transform: uppercase;
+}
+
+
+.container_botao:checked~.lista-menu {
+    display: block;
+}
+
+.container_titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
+.container_link p {
+    display: none;
+}
+
+.container_botao:checked~.container_rotulo>.cabecalho_menu-hamburguer {
+    background-image: url(../images/Menu\ Aberto.png);
+}
+
+.container_botao:checked~.container_rotulo {
+    background-color: var(--blue);
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .opcao_botao:checked~.opcoes_rotulo>.opcoes_lista {
+        color: var(--white);
+        background: var(--blue-degrade);
+    }
+
+    .lista_menu-item:hover {
+        background: var(--blue-degrade);
+    }
+
+    .lista_menu-item:hover>.lista_menu-link {
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
+
+    }
+
+
+
+    .opcao_botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcao_botao {
+        display: none;
+    }
+
+    .cabecalho_menu-hamburguer {
+        display: none;
+    }
+
+    .container_imagem-transparente {
+        display: none;
+    }
+
+    .container_titulo,
+    .container_titulo-negrito {
+        font-size: 30px;
+        font-family: var(--font-secundaria);
+
+    }
+
+    .container_titulo {
+        display: block;
+        font-weight: 400;
+
+    }
+
+    .container_titulo-negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes_lista {
+        padding: 1.5em;
+    }
+
+    .opcoes_lista,
+    .opcoes_item {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--black);
+        font-family: var(--font-secundaria);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    .container_link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .container_link p {
+        display: block;
+        font-size: 20px;
+        color: var(--black);
+    }
+
+    .opcoes {
+        margin-right: auto;
+        /* Vai preencher toda minha direita, empurrando os itens para a esquerda. */
+    }
+}
