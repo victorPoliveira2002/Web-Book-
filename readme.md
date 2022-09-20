@@ -38,4 +38,4 @@ Colocado em praticada o uso das principais funções do CSS.
 
 ## :dart: Status do projeto
  * Projeto atualmente FINALIZADO!
- * URL:
+ * URL: https://victorpoliveira2002.github.io/Web-Book-/
