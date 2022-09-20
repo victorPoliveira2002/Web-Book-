@@ -9,8 +9,10 @@ Colocado em praticada o uso das principais funções do CSS.
 
 
 ## :books: Funcionalidades
-* <b>Pagina de venda de livros</b>
-* <b>Pagina criada no formato "Mobile First"</b>
+* Pagina de venda de livros
+* Pagina criada no formato "Mobile First"
+* Menu retratil
+* Carousel (slideshow)
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/72527282/191326403-ff8cb20c-b47f-4f78-9f7d-64719fd3c0f4.gif)
 
@@ -21,7 +23,6 @@ Colocado em praticada o uso das principais funções do CSS.
 * Pseudo-elementos
 * Plugin SwiperJS
 * Combinadores CSS
-* Menu retratil
 
 ## :technologist: Autor
 <table>
